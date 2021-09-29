@@ -1,0 +1,572 @@
+.body{
+    font-family: 'Open Sans', sans-serif;
+}
+.bg-nav{
+    background-color: black !important;
+}
+.navbar{
+    padding: 1rem !important;
+}
+.navbar-brand{
+    font-size: 1.7rem !important;
+    font-family: 'Rock Salt', cursive;
+}
+.nav-link{
+    color: white !important;
+    font-size: 1.3rem;
+}
+.brand{
+    background-image: url(/static/assets/1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+.brand-name{
+    font-size: 6rem;
+    /* color: black; */
+    color: white !important;
+    text-align: center;
+    padding-top:6rem;
+    padding-bottom: 6rem;
+    font-family: 'Rock Salt', cursive;
+}
+.brand-desc{
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    /* color: black; */
+    /* font-weight: 600; */
+    padding: 2rem;
+    padding-bottom: 6rem;
+    margin-bottom: 0%;
+}
+.welcome-note{
+    text-align: center;
+    font-size: 2.5rem;
+    /* color: white; */
+    padding: 2rem;
+    line-height: 2;
+
+}
+.services-brief{
+    /* text-align: center; */
+    font-size: 1.75rem;
+    /* color: white; */
+    padding: 4rem;
+    line-height: 2;
+}
+
+.customers{
+    padding: 2rem;
+}
+.customer-heading{
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 1.5rem;
+}
+.customer-row{
+    padding: 3rem;
+}
+.customer-name{
+    font-size: 1.5rem;
+    padding: 1.5rem;
+}
+/* REVIEW PAGE */
+.review-heading{
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+.reviews{
+    padding: 5rem;
+}
+.review{
+    padding: 2rem;
+}
+.image_date{
+    padding: 1rem;
+}
+.review-main{
+    padding: 1rem;
+}.review-title{
+    border-bottom: solid 1px;
+    font-size: 1.5rem;
+    padding: 1rem;
+    padding: 1rem;
+}
+.review-body{
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+.review-author{
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.review-date{
+    text-align: center;
+}
+.review-image{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+.review{
+    display: flex;
+}
+/* PRODUCTS */
+.offerings{
+    text-align: center;
+    font-size: 3rem;
+    padding: 2rem;
+}
+.products{
+    padding: 5rem;
+}
+.product
+{
+    padding: 2rem !important;
+}
+.back-image{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* height: 100%;
+    width: 100%; */
+}
+.card,.review{
+    /* border: none !important; */
+    border-radius: 4px;
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    cursor: pointer;
+    height: 100%;
+    border: none !important;
+    border-radius: 25px !important;
+}
+.free{
+    /* background-image: url(/static/assets/products/free.jpeg); */
+    background:linear-gradient(135deg, #E3E3E3 0%,#5D6874 100%);
+}
+.school{
+    /* background-image: url(/static/assets/products/school.jpeg); */
+    background:linear-gradient(135deg, #fcdf8a 0%,#f38381 100%);
+}
+.university{
+    /* background-image: url(/static/assets/products/university.jpeg); */
+    background:linear-gradient(135deg, #622774 0%,#c53364 100%);
+}
+.enterprise{
+    /* background-image: url(/static/assets/products/enterprise.jpeg); */
+    background:linear-gradient(135deg, #C56CD6 0%,#3425AF 100%);
+}
+.card:hover,.review:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.card-title{
+    padding-bottom: 1.25rem;
+    font-size: 2.25rem;
+    text-align: center;
+    color: white;
+}
+.features ul{
+    padding-left: 4rem !important;
+}
+.feature{
+    font-size: 1.75rem;
+    line-height: 1.5;
+    color: white;
+}
+.offering{
+    padding: 2rem;
+}
+.offering-title{
+    font-size: 2rem;
+}
+.offering-desc{
+    /* padding: 0.5rem; */
+    font-size: 1.25rem;
+}
+.detailed-desc-title{
+    text-align: center;
+    font-size: 3rem;
+    padding: 3rem;
+}
+
+
+
+/* ABOUT PAGE */
+#about-back{
+    background-image: url(/static/assets//servers.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.about-main-desc{
+    padding: 5rem;
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.75;
+}
+/* CONTACT PAGE */
+#contact-back{
+    background-image: url(/static/assets/contact_us.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.contact-row{
+    padding: 3rem;
+}
+.contact-col{
+    padding: 1rem !important;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+.form-heading{
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 1rem;
+}
+.contact-desc{
+    padding: 3rem;
+    padding-top: 5rem;
+    line-height: 2;
+}
+.submit-button{
+    padding: 1rem;
+    text-align: center;
+}
+.btn-submit{
+    font-size: 1.2rem !important;
+    padding: .5rem !important;
+    
+}
+/* FOOTER */
+
+#footer{
+    /* background-color: #005691; */
+    background-color: black;
+    padding: 1%;
+}
+#footer ul{
+    list-style-type: none;
+    color: white;
+}
+#footer li{
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+}
+#footer li a{
+    text-decoration: none;
+    color: white;
+}
+.footer-cp a{
+    text-decoration: none;
+    color: white;
+}
+.footer-cp a:hover{
+    text-decoration: underline;
+    color: white;
+}
+#footer .row{
+    padding: 1rem auto;
+}
+.footer-section-left,.footer-section-right{
+    padding: 2rem 5rem 1rem 5rem;
+}
+.footer-section-middle{
+    text-align: center;
+    padding: 1rem;
+    padding-top: 4rem;
+}
+.footer-note{
+    font-size: 2rem;
+    color: white;
+    padding: 3rem;
+}
+.footer-dev{
+    font-family: 'Montserrat', sans-serif;
+}
+.footer-cp{
+    font-size: 0.8rem;
+    color: white;
+    /* padding: 3rem; */
+    padding: 1rem;
+    padding-bottom: 0rem;
+    margin-bottom: 0%;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer-icon{
+    padding: 0.5rem;
+    color: white;
+}
+.footer-bottom-content{
+    padding-top: 1rem; 
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400; 
+    color: white;
+    text-align: center;
+}
+.footer-logo{
+    font-family: 'Rock Salt', cursive;
+    font-size: 3.5rem;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width: 769px) {
+    .navbar{
+        padding: 0.5rem !important;
+    }
+    .navbar-brand{
+        font-size: 1.2rem !important;
+        font-family: 'Rock Salt', cursive;
+    }
+    .nav-link{
+        color: white !important;
+        font-size: 1.1rem;
+    }
+    .brand-name{
+        font-size: 2.5rem;
+        /* color: black; */
+        color: white !important;
+        text-align: center;
+        padding-top:3rem;
+        padding-bottom: 3rem;
+        font-family: 'Rock Salt', cursive;
+    }
+    .brand-desc{
+        text-align: center;
+        font-size: 1.75rem;
+        color: white;
+        /* color: black; */
+        /* font-weight: 600; */
+        padding: 2rem;
+        padding-bottom: 4rem;
+        margin-bottom: 0%;
+    }
+    .welcome-note{
+        text-align: center;
+        font-size: 1.3rem;
+        padding: 1.2rem;
+        line-height: 1.5;
+    }
+    .services-brief{
+        font-size: 1.2rem;
+        padding: 1.2rem;
+        line-height: 1.5;
+    }
+    
+    .customers{
+        padding: 1rem;
+    }
+    .customer-heading{
+        text-align: center;
+        font-size: 1.75rem;
+        padding: 1.1rem;
+    }
+    .customer-row{
+        padding: 1rem;
+    }
+    .customer-name{
+        font-size: 1.2rem;
+        padding: 0.8rem;
+    }
+    /* REVIEW PAGE */
+    .review-heading{
+        font-size: 2rem;
+        text-align: center;
+        padding: 1rem;
+        padding-top: 1rem;
+    }
+    .reviews{
+        padding: 1rem;
+    }
+    .review{
+        padding: 1rem;
+    }
+    .image_date{
+        padding: 0.5rem;
+    }
+    .review-main{
+        padding: 0.5rem;
+    }.review-title{
+        border-bottom: solid 1px;
+        font-size: 1.1rem;
+        padding: 0.5rem;
+    }
+    .review-body{
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+    .review-author{
+        padding: 0.5rem;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .review-date{
+        text-align: center;
+    }
+    .review-image{
+        border-radius: 50%;
+        height: 75px;
+        width: 75px;
+    }
+    .review{
+        display: flex;
+    }
+    /* PRODUCTS */
+    .offerings{
+        text-align: center;
+        font-size: 2rem;
+        padding: 1rem;
+    }
+    .products{
+        padding: 0.5rem;
+    }
+    .product
+    {
+        padding: 1rem !important;
+    }
+    .card-title{
+        padding-bottom: 1rem;
+        font-size: 1.75rem;
+        text-align: center;
+        color: white;
+    }
+    .features ul{
+        padding-left: 2rem !important;
+    }
+    .feature{
+        font-size: 1.2rem;
+        line-height: 1.5;
+        color: white;
+    }
+    .offering{
+        padding: 1rem;
+    }
+    .offering-title{
+        font-size: 1.7rem;
+    }
+    .offering-desc{
+        font-size: 1.2rem;
+    }
+    .detailed-desc-title{
+        text-align: center;
+        font-size: 2rem;
+        padding: 1rem;
+    }
+    /* ABOUT PAGE */
+    .about-main-desc{
+        padding: 1.3rem;
+        font-size: 1.25rem;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 1.5;
+    }
+    /* CONTACT PAGE */
+    .contact-row{
+        padding: 1rem;
+    }
+    .contact-col{
+        padding: 1rem !important;
+        font-size: 1.1rem;
+        line-height: 1.5;
+    }
+    .form-heading{
+        text-align: center;
+        font-size: 2rem;
+        padding: 1rem;
+    }
+    .contact-desc{
+        padding: 1rem;
+        padding-top: 1rem;
+        line-height: 1.7;
+    }
+    .submit-button{
+        padding: 1rem;
+        text-align: center;
+    }
+    .btn-submit{
+        font-size: 1.2rem !important;
+        padding: 0.5rem !important;
+        
+    }
+        /* FOOTER */
+    
+    #footer{
+        background-color: black;
+        padding: 1%;
+    }
+    #footer li{
+        font-size: 1rem;
+        padding: 0.5rem;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 1.5;
+    }
+    #footer li a{
+        text-decoration: none;
+        color: white;
+        padding: 0.5rem;
+    }
+
+    #footer .row{
+        padding: 0rem;
+    }
+    .footer-section-left,.footer-section-right{
+        padding: 0.5rem;
+    }
+    .footer-section-middle{
+        padding: 0.5rem;
+        padding-top: 4rem;
+        text-align: center;
+    }
+    #footer ul{
+        padding: 0.5rem;
+    }
+    .footer-note{
+        font-size: 1.1rem;
+        color: white;
+        padding: 1rem;
+        margin-bottom: 0%;
+    }
+    .footer-cp{
+        font-size: 0.7rem;
+        color: white;
+        padding: 1rem;
+        padding-bottom: 0rem;
+    }
+    .footer-dev{
+        font-family: 'Montserrat', sans-serif;
+    }
+    .footer-icon{
+        padding: 0.4rem;
+        color: white;
+    }
+    .footer-bottom-content{
+        padding-top: 1rem; 
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 400; 
+        color: white;
+        text-align: center;
+    }
+    .footer-logo{
+        font-family: 'Rock Salt', cursive;
+        font-size: 2rem;
+        color: white;
+        text-align: center;
+    }
+}
