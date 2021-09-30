@@ -23,6 +23,15 @@
     height: 100%;
     width: 100%;
 }
+.uni-image{
+    width: 70%;
+    padding: 1rem;
+    display: block;
+    margin: auto;
+}
+.iit-m{
+    width: 30%;
+}
 
 
 .brand-name{
@@ -262,7 +271,7 @@
     color: white;
 }
 #footer li{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     padding: 0.5rem;
     font-family: 'Open Sans', sans-serif;
     line-height: 1.5;
@@ -377,6 +386,15 @@
         text-align: center;
         font-size: 1.75rem;
         padding: 1.1rem;
+    }
+    .uni-image{
+        display: block;
+        margin: auto;
+    }
+    .iit-m{
+        width: 30%;
+        display: block;
+        margin: auto;
     }
     .customer-row{
         padding: 1rem;
